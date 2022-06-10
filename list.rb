@@ -1,5 +1,5 @@
 $LOAD_PATH << '.'
-require 'my_enumerable'
+require_relative 'enumerable'
 
 class MyList
   include MyEnumerable
